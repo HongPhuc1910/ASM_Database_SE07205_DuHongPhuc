@@ -43,6 +43,7 @@
             this.rbt_sale = new System.Windows.Forms.RadioButton();
             this.rbt_warehouse = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // txb_code
@@ -115,7 +116,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(430, 120);
+            this.label4.Location = new System.Drawing.Point(430, 130);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 16);
             this.label4.TabIndex = 8;
@@ -142,7 +143,7 @@
             // rbt_admin
             // 
             this.rbt_admin.AutoSize = true;
-            this.rbt_admin.Location = new System.Drawing.Point(523, 57);
+            this.rbt_admin.Location = new System.Drawing.Point(523, 33);
             this.rbt_admin.Name = "rbt_admin";
             this.rbt_admin.Size = new System.Drawing.Size(66, 20);
             this.rbt_admin.TabIndex = 11;
@@ -153,7 +154,7 @@
             // rbt_sale
             // 
             this.rbt_sale.AutoSize = true;
-            this.rbt_sale.Location = new System.Drawing.Point(523, 116);
+            this.rbt_sale.Location = new System.Drawing.Point(523, 100);
             this.rbt_sale.Name = "rbt_sale";
             this.rbt_sale.Size = new System.Drawing.Size(56, 20);
             this.rbt_sale.TabIndex = 12;
@@ -164,7 +165,7 @@
             // rbt_warehouse
             // 
             this.rbt_warehouse.AutoSize = true;
-            this.rbt_warehouse.Location = new System.Drawing.Point(523, 174);
+            this.rbt_warehouse.Location = new System.Drawing.Point(523, 161);
             this.rbt_warehouse.Name = "rbt_warehouse";
             this.rbt_warehouse.Size = new System.Drawing.Size(101, 20);
             this.rbt_warehouse.TabIndex = 13;
@@ -183,12 +184,24 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(523, 224);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(85, 20);
+            this.radioButton1.TabIndex = 15;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Customer";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Addemployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCoral;
             this.ClientSize = new System.Drawing.Size(686, 617);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.rbt_warehouse);
             this.Controls.Add(this.rbt_sale);
@@ -228,5 +241,6 @@
         private System.Windows.Forms.RadioButton rbt_sale;
         private System.Windows.Forms.RadioButton rbt_warehouse;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }

@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
                 StringBuilder builder = new StringBuilder();
                 foreach (byte b in hashBytes)
                 {
-                    builder.Append(b.ToString("x2"));
+                    builder.Append(b.ToString("x2")); // Convert to hexadecimal
                 }
                 return builder.ToString();
             }

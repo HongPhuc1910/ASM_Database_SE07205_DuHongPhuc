@@ -47,10 +47,6 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Username or Password is incorrect!");
             }
-
-            Menuform menu = new Menuform();
-            menu.Show();
-            this.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -66,7 +62,7 @@ namespace WindowsFormsApp1
         = "Server=HPL2024\\SQLEXPRESS;Database=ASM1;Trusted_Connection=True;";
         private bool CheckLogin(string username, string hashedPassword)
         {
-            string query = "SELECT PasswordHash From Employee WHERE Username = @Username";
+            string query = "SELECT password From Employee WHERE Username = @Username";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

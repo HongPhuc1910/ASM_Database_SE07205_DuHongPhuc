@@ -18,3 +18,24 @@ D:\Windows Form\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.dgv_UpdateProduct.re
 D:\Windows Form\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddCustomer.resources
 D:\Windows Form\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UpdateCustomer.resources
 D:\Windows Form\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Addemployee.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\SaleManagement.csproj.AssemblyReference.cache
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddCustomer.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Addemployee.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddProductForm.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.CustomerForm.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Employee.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Mainform.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Menuform.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PurchaseHistoryForm.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UpdateCustomer.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UpdateEmployee.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.dgv_UpdateProduct.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\SaleManagement.csproj.GenerateResource.cache
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\SaleManagement.csproj.CoreCompileInputs.cache
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

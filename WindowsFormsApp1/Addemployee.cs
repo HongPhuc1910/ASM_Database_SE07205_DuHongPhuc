@@ -59,7 +59,7 @@ namespace WindowsFormsApp1
             string username = txb_username.Text;
             string password = txb_password.Text;
 
-            string hashPassword = HashPassword(password);
+            string hashPassword = Utils.HashPassword(password);
             string position = txb_position.Text;
 
             int roleID = 2;
