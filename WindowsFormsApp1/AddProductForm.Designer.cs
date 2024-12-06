@@ -131,7 +131,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(102, 47);
             this.button6.TabIndex = 9;
-            this.button6.Text = "Clear";
+            this.button6.Text = "Delete";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 

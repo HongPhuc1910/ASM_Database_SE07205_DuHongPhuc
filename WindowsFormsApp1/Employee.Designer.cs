@@ -113,7 +113,7 @@
             this.ClientSize = new System.Drawing.Size(721, 435);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Employee";
-            this.Text = "Employee";
+            this.Text = "EmployeeForm";
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Employee)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
