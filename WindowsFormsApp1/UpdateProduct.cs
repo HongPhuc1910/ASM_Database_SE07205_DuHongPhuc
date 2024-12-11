@@ -17,12 +17,12 @@ namespace WindowsFormsApp1
     {
         public static string connectionString
       = "Server=HPL2024\\SQLEXPRESS;Database=ASM1;Trusted_Connection=True;";
-       
+
 
 
         //(code, name, price, quantity);
 
-        public dgv_UpdateProduct(string code, string name,int price, int quantity )
+        public dgv_UpdateProduct(string code, string name, int price, int quantity)
         {
             {
                 InitializeComponent();
@@ -90,7 +90,7 @@ namespace WindowsFormsApp1
 
         private void DeleteProductFromDatabase(string code)
         {
-            string query = "DELETE FROM Product WHERE Code = @Code";
+            string query = "UPDATE Product SET active = 0 WHERE code = @code";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -100,15 +100,15 @@ namespace WindowsFormsApp1
 
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
-                        // Add parameter to prevent SQL injection
-                        command.Parameters.AddWithValue("@Code", code);
 
-                        // Execute the delete command
+                        // Execute the update command
+
+                        command.Parameters.AddWithValue("@code", code);
                         int rowsAffected = command.ExecuteNonQuery();
 
                         if (rowsAffected > 0)
                         {
-                            MessageBox.Show("Product deleted successfully.");
+                            MessageBox.Show("Product updated successfully.");
                         }
                         else
                         {
@@ -122,6 +122,7 @@ namespace WindowsFormsApp1
                 }
             }
         }
+
         private void button5_Click(object sender, EventArgs e)
         {
             // Get updated values from textboxes
@@ -149,11 +150,6 @@ namespace WindowsFormsApp1
                 // Call method to delete the product from the database
                 DeleteProductFromDatabase(code);
             }
-        }
-
-        private void dgv_UpdateProduct_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

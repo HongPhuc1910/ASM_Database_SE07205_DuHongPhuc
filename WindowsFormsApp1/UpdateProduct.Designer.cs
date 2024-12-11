@@ -153,7 +153,6 @@
             this.Controls.Add(this.button1);
             this.Name = "dgv_UpdateProduct";
             this.Text = "UpdateProduct";
-            this.Load += new System.EventHandler(this.dgv_UpdateProduct_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

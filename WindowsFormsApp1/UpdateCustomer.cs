@@ -6,9 +6,11 @@ using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace WindowsFormsApp1
 {
@@ -78,7 +80,7 @@ namespace WindowsFormsApp1
 
         private void DeleteCustomerFromDatabase(string code)
         {
-            string query = "DELETE FROM Customer WHERE Code = @Code";
+            string query = "UPDATE Customer SET active = 0 WHERE code = @code";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -88,15 +90,15 @@ namespace WindowsFormsApp1
 
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
-                        // Add parameter to prevent SQL injection
-                        command.Parameters.AddWithValue("@Code", code);
+                        // Add parameters to prevent SQL injection
+                        command.Parameters.AddWithValue("@code", code);
 
-                        // Execute the delete command
+                        // Execute the update command
                         int rowsAffected = command.ExecuteNonQuery();
 
                         if (rowsAffected > 0)
                         {
-                            MessageBox.Show("Customer deleted successfully.");
+                            MessageBox.Show("Customer updated successfully.");
                         }
                         else
                         {

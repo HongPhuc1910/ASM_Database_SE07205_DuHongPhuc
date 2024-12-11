@@ -44,7 +44,7 @@
             this.txb_position = new System.Windows.Forms.TextBox();
             this.txb_code = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.rbt_customer = new System.Windows.Forms.RadioButton();
+            this.rbt_employee = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // button1
@@ -196,16 +196,16 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // rbt_customer
+            // rbt_employee
             // 
-            this.rbt_customer.AutoSize = true;
-            this.rbt_customer.Location = new System.Drawing.Point(601, 216);
-            this.rbt_customer.Name = "rbt_customer";
-            this.rbt_customer.Size = new System.Drawing.Size(85, 20);
-            this.rbt_customer.TabIndex = 31;
-            this.rbt_customer.TabStop = true;
-            this.rbt_customer.Text = "Customer";
-            this.rbt_customer.UseVisualStyleBackColor = true;
+            this.rbt_employee.AutoSize = true;
+            this.rbt_employee.Location = new System.Drawing.Point(601, 216);
+            this.rbt_employee.Name = "rbt_employee";
+            this.rbt_employee.Size = new System.Drawing.Size(90, 20);
+            this.rbt_employee.TabIndex = 31;
+            this.rbt_employee.TabStop = true;
+            this.rbt_employee.Text = "Employee";
+            this.rbt_employee.UseVisualStyleBackColor = true;
             // 
             // UpdateEmployee
             // 
@@ -213,7 +213,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Ivory;
             this.ClientSize = new System.Drawing.Size(800, 621);
-            this.Controls.Add(this.rbt_customer);
+            this.Controls.Add(this.rbt_employee);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.rbt_warehouse);
@@ -255,6 +255,6 @@
         private System.Windows.Forms.TextBox txb_position;
         private System.Windows.Forms.TextBox txb_code;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.RadioButton rbt_customer;
+        private System.Windows.Forms.RadioButton rbt_employee;
     }
 }

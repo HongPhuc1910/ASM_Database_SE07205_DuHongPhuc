@@ -42,7 +42,7 @@ namespace WindowsFormsApp1
         private void LoadData()
         {
             // SQL query to fetch data
-            string query = "SELECT * FROM Product";
+            string query = "SELECT * FROM Product where active = 1";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

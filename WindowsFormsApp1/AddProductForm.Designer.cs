@@ -116,7 +116,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button5.Location = new System.Drawing.Point(186, 340);
+            this.button5.Location = new System.Drawing.Point(498, 340);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(102, 47);
             this.button5.TabIndex = 8;
@@ -127,7 +127,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button6.Location = new System.Drawing.Point(486, 340);
+            this.button6.Location = new System.Drawing.Point(203, 340);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(102, 47);
             this.button6.TabIndex = 9;

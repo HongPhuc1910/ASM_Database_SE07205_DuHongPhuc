@@ -72,7 +72,8 @@ namespace WindowsFormsApp1
             // Connection string to your database
 
             // SQL query to insert data
-            string query = "INSERT INTO Employee (code, name, position, username, password) VALUES (@code, @name, @position, @username, @password)";
+            string query = "INSERT INTO Employee " +
+                "(code, name, position, username, password, active, roleId) VALUES (@code, @name, @position, @username, @password, 1, @roleId)";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

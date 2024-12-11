@@ -43,7 +43,7 @@
             this.rbt_sale = new System.Windows.Forms.RadioButton();
             this.rbt_warehouse = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rbt_employee = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // txb_code
@@ -184,16 +184,16 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // radioButton1
+            // rbt_employee
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(523, 224);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 20);
-            this.radioButton1.TabIndex = 15;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Customer";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbt_employee.AutoSize = true;
+            this.rbt_employee.Location = new System.Drawing.Point(523, 224);
+            this.rbt_employee.Name = "rbt_employee";
+            this.rbt_employee.Size = new System.Drawing.Size(90, 20);
+            this.rbt_employee.TabIndex = 15;
+            this.rbt_employee.TabStop = true;
+            this.rbt_employee.Text = "Employee";
+            this.rbt_employee.UseVisualStyleBackColor = true;
             // 
             // Addemployee
             // 
@@ -201,7 +201,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCoral;
             this.ClientSize = new System.Drawing.Size(686, 617);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.rbt_employee);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.rbt_warehouse);
             this.Controls.Add(this.rbt_sale);
@@ -241,6 +241,6 @@
         private System.Windows.Forms.RadioButton rbt_sale;
         private System.Windows.Forms.RadioButton rbt_warehouse;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rbt_employee;
     }
 }

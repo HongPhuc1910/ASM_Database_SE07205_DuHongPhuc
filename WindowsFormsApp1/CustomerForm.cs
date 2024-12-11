@@ -55,7 +55,7 @@ namespace WindowsFormsApp1
         private void LoadData()
         {
             // SQL query to fetch data
-            string query = "SELECT * FROM Customer";
+            string query = "SELECT * FROM Customer where active = 1";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

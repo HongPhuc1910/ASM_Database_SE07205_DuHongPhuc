@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
             if (role == "Admin") rbt_admin.Checked = true;
             else if (role == "Warehouse") rbt_warehouse.Checked = true;
             else if (role == "Sale") rbt_sale.Checked = true;
-            else if (role == "Customer") rbt_customer.Checked = true;
+            else if (role == "Customer") rbt_employee.Checked = true;
             txb_username.Text = username;
             txb_password.Text = password;
         }
@@ -113,7 +113,7 @@ namespace WindowsFormsApp1
             if (rbt_admin.Checked) return "admin";
             if (rbt_warehouse.Checked) return "warehouse";
             if (rbt_sale.Checked) return "sale";
-            if (rbt_customer.Checked) return "customer";
+            if (rbt_employee.Checked) return "customer";
             return string.Empty;
         }
 
@@ -122,7 +122,7 @@ namespace WindowsFormsApp1
             if (rbt_admin.Checked) return "admin";
             if (rbt_warehouse.Checked) return "warehouse";
             if (rbt_sale.Checked) return "sale";
-            if (rbt_customer.Checked) return "customer";
+            if (rbt_employee.Checked) return "customer";
 
             MessageBox.Show("No role selected."); // Thông báo nếu không có vai trò nào được chọn
             return string.Empty;
