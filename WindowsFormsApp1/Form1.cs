@@ -62,7 +62,7 @@ namespace WindowsFormsApp1
         = "Server=HPL2024\\SQLEXPRESS;Database=ASM1;Trusted_Connection=True;";
         private bool CheckLogin(string username, string hashedPassword)
         {
-            string query = "SELECT password, roleId From Employee WHERE Username = @Username";
+            string query = "SELECT password, From Employee WHERE Username = @Username";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
