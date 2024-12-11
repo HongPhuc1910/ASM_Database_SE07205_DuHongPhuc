@@ -163,5 +163,57 @@ namespace WindowsFormsApp1
             var validRoles = new List<string> { "Admin", "Warehouse", "Sale", "Employee" };
             return validRoles.Contains(roleName);
         }
+
+
+        private void DeleteEmployeeFromDatabase(string code)
+        {
+            string query = "DELETE FROM Employee WHERE Code = @Code";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        // Add parameter to prevent SQL injection
+                        command.Parameters.AddWithValue("@Code", code);
+
+                        // Execute the delete command
+                        int rowsAffected = command.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Employee deleted successfully.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("No employee found with the specified code.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("An error occurred: " + ex.Message);
+                }
+            }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Get the customer code from the textbox
+            string code = txb_code.Text.Trim();
+
+            // Confirm before deleting
+            var confirmResult = MessageBox.Show("Are you sure you want to delete this customer?",
+                                                 "Confirm Delete",
+                                                 MessageBoxButtons.YesNo);
+
+            if (confirmResult == DialogResult.Yes)
+            {
+                // Call method to delete the customer from the database
+                DeleteEmployeeFromDatabase(code);
+            }
+        }
     }
 }
