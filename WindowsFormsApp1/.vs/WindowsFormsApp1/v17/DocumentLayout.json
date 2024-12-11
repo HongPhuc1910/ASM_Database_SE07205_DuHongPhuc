@@ -7,6 +7,34 @@
       "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|d:\\asm_database_se07205_duhongphuc\\windowsformsapp1\\addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:addcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\addpurchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:addpurchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\employee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:employee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|d:\\asm_database_se07205_duhongphuc\\windowsformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|d:\\asm_database_se07205_duhongphuc\\windowsformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|d:\\asm_database_se07205_duhongphuc\\windowsformsapp1\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:updateemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\addpurchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:addpurchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\addpurchasehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -49,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\employee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:employee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50C93BF4-253F-4CFE-B32C-7814EF21F7FA}|SaleManagement.csproj|D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\addemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +106,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Employee.Designer.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Employee.Designer.cs",
               "RelativeDocumentMoniker": "Employee.Designer.cs",
@@ -116,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Employee.cs",
               "RelativeDocumentMoniker": "Employee.cs",
@@ -129,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "Employee.cs [Design]",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Employee.cs",
               "RelativeDocumentMoniker": "Employee.cs",
@@ -141,19 +145,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Form1.cs [Design]*",
               "RelativeToolTip": "Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T10:48:37.489Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-21T10:48:37.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -161,12 +164,11 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T10:47:08.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T10:47:08.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -174,24 +176,22 @@
               "RelativeToolTip": "Form1.cs*",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:05:55.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:05:55.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Menuform.cs [Design]",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Menuform.cs",
               "RelativeDocumentMoniker": "Menuform.cs",
               "ToolTip": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Menuform.cs [Design]",
               "RelativeToolTip": "Menuform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T12:27:05.419Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-14T12:27:05.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Menuform.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Menuform.cs",
               "RelativeDocumentMoniker": "Menuform.cs",
@@ -199,12 +199,11 @@
               "RelativeToolTip": "Menuform.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAUwB8AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T12:36:30.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T12:36:30.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Menuform.Designer.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Menuform.Designer.cs",
               "RelativeDocumentMoniker": "Menuform.Designer.cs",
@@ -212,24 +211,22 @@
               "RelativeToolTip": "Menuform.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:16:03.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T13:16:03.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Addemployee.cs [Design]",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Addemployee.cs",
               "RelativeDocumentMoniker": "Addemployee.cs",
               "ToolTip": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Addemployee.cs [Design]",
               "RelativeToolTip": "Addemployee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T06:55:20.645Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-05T06:55:20.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Addemployee.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Addemployee.cs",
               "RelativeDocumentMoniker": "Addemployee.cs",
@@ -237,12 +234,11 @@
               "RelativeToolTip": "Addemployee.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAhwDgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T07:16:29.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T07:16:29.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Utils.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Utils.cs",
               "RelativeDocumentMoniker": "Utils.cs",
@@ -250,24 +246,22 @@
               "RelativeToolTip": "Utils.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:00:21.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:00:21.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "UpdateEmployee.cs [Design]",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\UpdateEmployee.cs",
               "RelativeDocumentMoniker": "UpdateEmployee.cs",
               "ToolTip": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\UpdateEmployee.cs [Design]",
               "RelativeToolTip": "UpdateEmployee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:28:37.345Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-05T11:28:37.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "UpdateEmployee.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\UpdateEmployee.cs",
               "RelativeDocumentMoniker": "UpdateEmployee.cs",
@@ -275,12 +269,11 @@
               "RelativeToolTip": "UpdateEmployee.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:35:27.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:35:27.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "PurchaseHistoryForm.Designer.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\PurchaseHistoryForm.Designer.cs",
               "RelativeDocumentMoniker": "PurchaseHistoryForm.Designer.cs",
@@ -288,12 +281,11 @@
               "RelativeToolTip": "PurchaseHistoryForm.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:52:11.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T06:52:11.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "PurchaseHistoryForm.cs [Design]",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\PurchaseHistoryForm.cs",
               "RelativeDocumentMoniker": "PurchaseHistoryForm.cs",
@@ -304,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "PurchaseHistoryForm.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\PurchaseHistoryForm.cs",
               "RelativeDocumentMoniker": "PurchaseHistoryForm.cs",
@@ -316,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AddPurchaseHistory.cs [Design]",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\AddPurchaseHistory.cs",
               "RelativeDocumentMoniker": "AddPurchaseHistory.cs",
@@ -328,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "AddPurchaseHistory.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\AddPurchaseHistory.cs",
               "RelativeDocumentMoniker": "AddPurchaseHistory.cs",
@@ -341,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Mainform.cs [Design]",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Mainform.cs",
               "RelativeDocumentMoniker": "Mainform.cs",
@@ -353,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Mainform.cs",
               "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Mainform.cs",
               "RelativeDocumentMoniker": "Mainform.cs",
@@ -372,10 +364,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T07:56:22.321Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddCustomer.cs [Design]",
+              "DocumentMoniker": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\AddCustomer.cs",
+              "RelativeDocumentMoniker": "AddCustomer.cs",
+              "ToolTip": "D:\\ASM_Database_SE07205_DuHongPhuc\\WindowsFormsApp1\\AddCustomer.cs [Design]",
+              "RelativeToolTip": "AddCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:43:23.015Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
