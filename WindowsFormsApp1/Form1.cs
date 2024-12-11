@@ -62,7 +62,7 @@ namespace WindowsFormsApp1
         = "Server=HPL2024\\SQLEXPRESS;Database=ASM1;Trusted_Connection=True;";
         private bool CheckLogin(string username, string hashedPassword)
         {
-            string query = "SELECT password, FROM Employee WHERE Username = @Username";
+            string query = "SELECT password, roleId FROM Employee WHERE username = @username";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -72,12 +72,18 @@ namespace WindowsFormsApp1
                 try
                 {
                     connection.Open();
-                    object result = command.ExecuteScalar();
-
-                    if (result != null)
+                    using (SqlDataReader reader = command.ExecuteReader())
                     {
-                        string storedHash = result.ToString();
-                        return storedHash == hashedPassword;
+                        if (reader.Read())
+                        {
+                            string storedHash = reader["password"].ToString(); // Retrieved hashed password
+                            int roleId = Convert.ToInt32(reader["roleId"]); // Retrieved roleId
+
+
+                            Utils.roleID = roleId; // Assign the roleId to your global variable or utility class
+
+                            return storedHash == hashedPassword; // Compare the hashes
+                        }
                     }
                 }
                 catch (Exception ex)
@@ -86,7 +92,7 @@ namespace WindowsFormsApp1
                 }
             }
 
-            return false;
+            return false; // Return false if username not found or any error occurs
         }
     }
 }

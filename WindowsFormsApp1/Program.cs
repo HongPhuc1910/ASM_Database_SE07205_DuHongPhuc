@@ -18,8 +18,8 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
-            Application.Run(new Form1()); // Đảm bảo bạn có một lớp Form hợp lệ
             Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
             string password = "phuc1910";
             
             InsertData("BH001", "DUHONGPHUC", "CEO", 1, "duhongphuc", Utils.HashPassword(password));
