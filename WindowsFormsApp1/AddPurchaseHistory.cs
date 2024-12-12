@@ -24,10 +24,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
 
             // Thiết lập giao diện ở trung tâm màn hình
-
-            // Set the form to start in the center of the screen
             this.StartPosition = FormStartPosition.CenterScreen;
-
 
             // Disable the maximize/restore button
             this.MaximizeBox = false;
@@ -35,19 +32,31 @@ namespace WindowsFormsApp1
             // Optional: Set a fixed border style to prevent resizing
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
 
+            // Thêm các mục vào ComboBox
             cbx_status.Items.AddRange(items);
             cbx_status.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+
+            // Đặt mục mặc định được chọn (nếu cần)
+            cbx_status.SelectedIndex = 0; // Mặc định chọn "Cancle"
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int selectedIndex = cbx_status.SelectedIndex; // Gets the selected index
-            if (selectedIndex != -1) // Check if an item is selected
+            // Lấy chỉ số mục đã chọn
+            selectID = cbx_status.SelectedIndex;
+
+            // Kiểm tra nếu có mục được chọn
+            if (selectID != -1)
             {
-                MessageBox.Show($"Selected Index: {selectedIndex}");
+                // Lấy giá trị của mục đã chọn
+                string selectedItem = cbx_status.SelectedItem.ToString();
+
+                // Hiển thị chỉ số và mục đã chọn
+                MessageBox.Show($"Selected Index: {selectID}, Selected Item: {selectedItem}");
             }
             else
             {
+                // Trường hợp không có mục nào được chọn
                 MessageBox.Show("No item selected.");
             }
         }
@@ -106,6 +115,11 @@ namespace WindowsFormsApp1
             DateTime selectedDate = dtp_datetime.Value.Date;
 
             InsertDataToPurchaseHistory(purchaseID, customerID, productID, selectedDate, quantity, selectID, 1);
+        }
+
+        private void cbx_status_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

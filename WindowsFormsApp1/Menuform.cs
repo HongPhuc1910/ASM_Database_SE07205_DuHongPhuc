@@ -24,15 +24,47 @@ namespace WindowsFormsApp1
             // Optional Set a fixed border style to prevent resize
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
 
-            if (Utils.roleID == 1)
+            // 1 là Admin, 2 là Sale, 3 là Warehouse, 4 là Employee
+            if (Utils.roleID == 1) // Admin
             {
-
-                // id = 2 la SALE
-
-                // button5.Visible = false;
+                button1.Visible = true;  // Product Management
+                button3.Visible = true;  // Customer Management
+                button4.Visible = true;  // Purchase History
+                button5.Visible = true;  // Employee Management
+            }
+            else if (Utils.roleID == 2) // Sale
+            {
+                button1.Visible = true;  // Product Management
+                button3.Visible = true;  // Customer Management
+                button4.Visible = true;  // Purchase History
+                button5.Visible = false; // Employee Management
+            }
+            else if (Utils.roleID == 3) // Warehouse
+            {
+                button1.Visible = true;  // Product Management
+                button3.Visible = false; // Customer Management
+                button4.Visible = false; // Purchase History
+                button5.Visible = false; // Employee Management
+            }
+            else if (Utils.roleID == 4) // Employee
+            {
+                button1.Visible = false; // Product Management
+                button3.Visible = false; // Customer Management
+                button4.Visible = false; // Purchase History
+                button5.Visible = false; // Employee Management
+            }
+            else
+            {
+                // Nếu không có roleID hợp lệ
+                button1.Visible = false;
+                button3.Visible = false;
+                button4.Visible = false;
+                button5.Visible = false;
             }
 
         }
+
+
 
         private void button3_Click(object sender, EventArgs e)
         {

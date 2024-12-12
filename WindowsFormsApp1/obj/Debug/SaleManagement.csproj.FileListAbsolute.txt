@@ -40,3 +40,4 @@ D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\SaleManagement.csp
 D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AddPurchaseHistory.resources
+D:\ASM_Database_SE07205_DuHongPhuc\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UpdatePurchaseHistory.resources

@@ -30,12 +30,12 @@
         {
             this.dgv_PurchaseHistory = new System.Windows.Forms.DataGridView();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.txb_search = new System.Windows.Forms.TextBox();
+            this.btn_search = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_PurchaseHistory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -53,6 +53,7 @@
             this.dgv_PurchaseHistory.RowTemplate.Height = 24;
             this.dgv_PurchaseHistory.Size = new System.Drawing.Size(1093, 495);
             this.dgv_PurchaseHistory.TabIndex = 0;
+            this.dgv_PurchaseHistory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_PurchaseHistory_CellContentClick);
             // 
             // splitContainer1
             // 
@@ -66,8 +67,8 @@
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.splitContainer1.Panel1.Controls.Add(this.comboBox1);
             this.splitContainer1.Panel1.Controls.Add(this.button4);
-            this.splitContainer1.Panel1.Controls.Add(this.textBox1);
-            this.splitContainer1.Panel1.Controls.Add(this.button3);
+            this.splitContainer1.Panel1.Controls.Add(this.txb_search);
+            this.splitContainer1.Panel1.Controls.Add(this.btn_search);
             this.splitContainer1.Panel1.Controls.Add(this.button2);
             this.splitContainer1.Panel1.Controls.Add(this.button1);
             // 
@@ -77,6 +78,14 @@
             this.splitContainer1.Size = new System.Drawing.Size(1093, 576);
             this.splitContainer1.SplitterDistance = 77;
             this.splitContainer1.TabIndex = 1;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(905, 27);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(159, 24);
+            this.comboBox1.TabIndex = 5;
             // 
             // button4
             // 
@@ -89,24 +98,24 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // textBox1
+            // txb_search
             // 
-            this.textBox1.Location = new System.Drawing.Point(565, 12);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(304, 52);
-            this.textBox1.TabIndex = 3;
+            this.txb_search.Location = new System.Drawing.Point(565, 12);
+            this.txb_search.Multiline = true;
+            this.txb_search.Name = "txb_search";
+            this.txb_search.Size = new System.Drawing.Size(304, 52);
+            this.txb_search.TabIndex = 3;
             // 
-            // button3
+            // btn_search
             // 
-            this.button3.BackColor = System.Drawing.Color.Aquamarine;
-            this.button3.Location = new System.Drawing.Point(453, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(89, 52);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Search";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_search.BackColor = System.Drawing.Color.Aquamarine;
+            this.btn_search.Location = new System.Drawing.Point(453, 12);
+            this.btn_search.Name = "btn_search";
+            this.btn_search.Size = new System.Drawing.Size(89, 52);
+            this.btn_search.TabIndex = 2;
+            this.btn_search.Text = "Search";
+            this.btn_search.UseVisualStyleBackColor = false;
+            this.btn_search.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -130,14 +139,6 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(905, 27);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(159, 24);
-            this.comboBox1.TabIndex = 5;
-            // 
             // PurchaseHistoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -160,10 +161,10 @@
 
         private System.Windows.Forms.DataGridView dgv_PurchaseHistory;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_search;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txb_search;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ComboBox comboBox1;
     }

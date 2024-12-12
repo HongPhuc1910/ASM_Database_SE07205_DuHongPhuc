@@ -52,9 +52,9 @@ namespace WindowsFormsApp1
                     {
                         // Add parameters to prevent SQL injection
                         command.Parameters.AddWithValue("@Code", code);
-                        command.Parameters.AddWithValue("@Name", fullName); // Sử dụng 'name' thay vì 'FullName'
+                        command.Parameters.AddWithValue("@Name", fullName);
                         command.Parameters.AddWithValue("@Position", position);
-                        command.Parameters.AddWithValue("@RoleId", roleId); // Sử dụng 'roleid' thay vì 'Role'
+                        command.Parameters.AddWithValue("@RoleId", roleId);
                         command.Parameters.AddWithValue("@Username", username);
                         command.Parameters.AddWithValue("@Password", password);
 
@@ -90,19 +90,18 @@ namespace WindowsFormsApp1
                 return;
             }
 
-            string role = GetSelectedRole(); // Giả sử bạn có phương thức này để lấy vai trò đã chọn
+            string role = GetSelectedRole();
             MessageBox.Show($"Selected role: '{role}'");
+
             // Lấy roleId
             int roleId = GetRoleId(role);
-            try
+
+            if (roleId == -1)
             {
-                roleId = GetRoleId(role);
-            }
-            catch (ArgumentException ex)
-            {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Invalid role selected.");
                 return;
             }
+
             // Cập nhật thông tin nhân viên
             UpdateEmployeeInDatabase(txb_code.Text, txb_name.Text, txb_position.Text, roleId, txb_username.Text, txb_password.Text);
             this.Close();
@@ -113,7 +112,7 @@ namespace WindowsFormsApp1
             if (rbt_admin.Checked) return "admin";
             if (rbt_warehouse.Checked) return "warehouse";
             if (rbt_sale.Checked) return "sale";
-            if (rbt_employee.Checked) return "customer";
+            if (rbt_employee.Checked) return "employee"; // Đảm bảo "employee" là tên role chính xác
             return string.Empty;
         }
 
@@ -129,11 +128,10 @@ namespace WindowsFormsApp1
         }
         private int GetRoleId(string roleName)
         {
-            int roleId = -1; // Giá trị mặc định nếu không tìm thấy
+            int roleId = -1;
             string query = "SELECT id FROM [Role] WHERE roleName = @RoleName";
 
-            // Ghi nhận giá trị roleName
-            Console.WriteLine($"Searching for role: '{roleName}'");
+            Console.WriteLine($"Searching for role: '{roleName}'");  // Debug
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -148,10 +146,8 @@ namespace WindowsFormsApp1
                 }
             }
 
-            // Kiểm tra xem roleId có hợp lệ không
             if (roleId == -1)
             {
-                // Thêm thông báo lỗi nếu không tìm thấy vai trò
                 throw new ArgumentException($"Invalid role: '{roleName}'");
             }
 

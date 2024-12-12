@@ -132,6 +132,12 @@
     </Compile>
     <Compile Include="UpdateProduct1.cs" />
     <Compile Include="UpdateProduct2.cs" />
+    <Compile Include="UpdatePurchaseHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatePurchaseHistory.Designer.cs">
+      <DependentUpon>UpdatePurchaseHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Utils.cs" />
     <EmbeddedResource Include="AddCustomer.resx">
       <DependentUpon>AddCustomer.cs</DependentUpon>
@@ -181,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateProduct.resx">
       <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePurchaseHistory.resx">
+      <DependentUpon>UpdatePurchaseHistory.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

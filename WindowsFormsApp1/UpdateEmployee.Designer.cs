@@ -61,7 +61,7 @@
             // rbt_warehouse
             // 
             this.rbt_warehouse.AutoSize = true;
-            this.rbt_warehouse.Location = new System.Drawing.Point(601, 159);
+            this.rbt_warehouse.Location = new System.Drawing.Point(610, 149);
             this.rbt_warehouse.Name = "rbt_warehouse";
             this.rbt_warehouse.Size = new System.Drawing.Size(101, 20);
             this.rbt_warehouse.TabIndex = 28;
@@ -72,7 +72,7 @@
             // rbt_sale
             // 
             this.rbt_sale.AutoSize = true;
-            this.rbt_sale.Location = new System.Drawing.Point(601, 107);
+            this.rbt_sale.Location = new System.Drawing.Point(610, 93);
             this.rbt_sale.Name = "rbt_sale";
             this.rbt_sale.Size = new System.Drawing.Size(56, 20);
             this.rbt_sale.TabIndex = 27;
@@ -83,7 +83,7 @@
             // rbt_admin
             // 
             this.rbt_admin.AutoSize = true;
-            this.rbt_admin.Location = new System.Drawing.Point(601, 52);
+            this.rbt_admin.Location = new System.Drawing.Point(610, 38);
             this.rbt_admin.Name = "rbt_admin";
             this.rbt_admin.Size = new System.Drawing.Size(66, 20);
             this.rbt_admin.TabIndex = 26;
@@ -112,7 +112,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(508, 136);
+            this.label4.Location = new System.Drawing.Point(520, 122);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 16);
             this.label4.TabIndex = 23;
@@ -199,7 +199,7 @@
             // rbt_employee
             // 
             this.rbt_employee.AutoSize = true;
-            this.rbt_employee.Location = new System.Drawing.Point(601, 216);
+            this.rbt_employee.Location = new System.Drawing.Point(610, 205);
             this.rbt_employee.Name = "rbt_employee";
             this.rbt_employee.Size = new System.Drawing.Size(90, 20);
             this.rbt_employee.TabIndex = 31;
@@ -211,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Ivory;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 621);
             this.Controls.Add(this.rbt_employee);
             this.Controls.Add(this.button2);

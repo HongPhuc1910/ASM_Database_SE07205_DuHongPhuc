@@ -144,6 +144,7 @@
             this.cbx_status.Name = "cbx_status";
             this.cbx_status.Size = new System.Drawing.Size(318, 24);
             this.cbx_status.TabIndex = 11;
+            this.cbx_status.SelectedIndexChanged += new System.EventHandler(this.cbx_status_SelectedIndexChanged);
             // 
             // button1
             // 
