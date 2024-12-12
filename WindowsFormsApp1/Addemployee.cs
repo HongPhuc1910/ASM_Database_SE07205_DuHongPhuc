@@ -54,17 +54,36 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string fullname = txb_name.Text;
-            string code = txb_code.Text;
-            string username = txb_username.Text;
-            string password = txb_password.Text;
+                string fullname = txb_name.Text;
+                string code = txb_code.Text;
+                string username = txb_username.Text;
+                string password = txb_password.Text;
 
-            string hashPassword = Utils.HashPassword(password);
-            string position = txb_position.Text;
+                string hashPassword = Utils.HashPassword(password);
+                string position = txb_position.Text;
 
-            int roleID = 2;
+                // Xác định roleID dựa trên lựa chọn
+                int roleID = 0;
+                if (rbt_admin.Checked) // RadioButton cho Admin
+                {
+                    roleID = 1;
+                }
+                else if (rbt_sale.Checked) // RadioButton cho Sale
+                {
+                    roleID = 2;
+                }
+                else if (rbt_warehouse.Checked) // RadioButton cho Warehouse
+                {
+                    roleID = 3;
+                }
+                else if (rbt_employee.Checked) // RadioButton cho Employee
+                {
+                    roleID = 4;
+                }
 
-            InsertData(code, fullname, position, roleID, username, hashPassword);
+                // Gọi phương thức InsertData với roleID tương ứng
+                InsertData(code, fullname, position, roleID, username, hashPassword);
+
         }
 
         private void InsertData(string code, string name, string position, int roleID, string username, string password)

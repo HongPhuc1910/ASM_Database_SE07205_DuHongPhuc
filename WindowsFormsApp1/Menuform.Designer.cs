@@ -34,13 +34,14 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LightYellow;
-            this.button1.Location = new System.Drawing.Point(554, 49);
+            this.button1.Location = new System.Drawing.Point(563, 50);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(189, 58);
             this.button1.TabIndex = 0;
@@ -51,7 +52,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Bisque;
-            this.button2.Location = new System.Drawing.Point(341, 196);
+            this.button2.Location = new System.Drawing.Point(359, 191);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(189, 58);
             this.button2.TabIndex = 1;
@@ -60,8 +61,8 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.LightCoral;
-            this.button3.Location = new System.Drawing.Point(554, 143);
+            this.button3.BackColor = System.Drawing.Color.MistyRose;
+            this.button3.Location = new System.Drawing.Point(563, 144);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(189, 58);
             this.button3.TabIndex = 2;
@@ -72,7 +73,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button4.Location = new System.Drawing.Point(554, 251);
+            this.button4.Location = new System.Drawing.Point(563, 241);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(189, 58);
             this.button4.TabIndex = 3;
@@ -82,8 +83,8 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.MistyRose;
-            this.button5.Location = new System.Drawing.Point(554, 348);
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button5.Location = new System.Drawing.Point(563, 337);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(189, 58);
             this.button5.TabIndex = 4;
@@ -94,12 +95,23 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.menu;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 89);
+            this.pictureBox1.Location = new System.Drawing.Point(51, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(284, 287);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.LightCoral;
+            this.button6.Location = new System.Drawing.Point(22, 380);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(120, 58);
+            this.button6.TabIndex = 6;
+            this.button6.Text = "Log Out";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Menuform
             // 
@@ -107,6 +119,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -128,5 +141,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button6;
     }
 }

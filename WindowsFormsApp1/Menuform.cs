@@ -23,6 +23,15 @@ namespace WindowsFormsApp1
 
             // Optional Set a fixed border style to prevent resize
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
+
+            if (Utils.roleID == 1)
+            {
+
+                // id = 2 la SALE
+
+                // button5.Visible = false;
+            }
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -50,6 +59,13 @@ namespace WindowsFormsApp1
         {
             Employee Employee = new Employee();
             Employee.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form1 Form = new Form1();
+            Form.Show();
             this.Hide();
         }
     }

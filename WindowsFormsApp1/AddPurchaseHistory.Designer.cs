@@ -33,20 +33,20 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txb_purchaseID = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txb_productID = new System.Windows.Forms.TextBox();
+            this.txb_customerID = new System.Windows.Forms.TextBox();
+            this.txb_quantity = new System.Windows.Forms.TextBox();
+            this.dtp_datetime = new System.Windows.Forms.DateTimePicker();
+            this.cbx_status = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(120, 34);
+            this.label1.Location = new System.Drawing.Point(25, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 16);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(120, 95);
+            this.label2.Location = new System.Drawing.Point(25, 126);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 16);
             this.label2.TabIndex = 1;
@@ -64,7 +64,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(120, 157);
+            this.label3.Location = new System.Drawing.Point(395, 62);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 16);
             this.label3.TabIndex = 2;
@@ -73,7 +73,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(120, 272);
+            this.label4.Location = new System.Drawing.Point(120, 229);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 16);
             this.label4.TabIndex = 3;
@@ -82,93 +82,94 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(131, 321);
+            this.label5.Location = new System.Drawing.Point(131, 301);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "Status";
             // 
-            // textBox1
+            // txb_purchaseID
             // 
-            this.textBox1.Location = new System.Drawing.Point(251, 22);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(318, 41);
-            this.textBox1.TabIndex = 5;
+            this.txb_purchaseID.Location = new System.Drawing.Point(123, 50);
+            this.txb_purchaseID.Multiline = true;
+            this.txb_purchaseID.Name = "txb_purchaseID";
+            this.txb_purchaseID.Size = new System.Drawing.Size(187, 41);
+            this.txb_purchaseID.TabIndex = 5;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(131, 218);
+            this.label6.Location = new System.Drawing.Point(405, 126);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(55, 16);
             this.label6.TabIndex = 6;
             this.label6.Text = "Quantity";
             // 
-            // textBox2
+            // txb_productID
             // 
-            this.textBox2.Location = new System.Drawing.Point(251, 82);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(318, 41);
-            this.textBox2.TabIndex = 7;
+            this.txb_productID.Location = new System.Drawing.Point(123, 113);
+            this.txb_productID.Multiline = true;
+            this.txb_productID.Name = "txb_productID";
+            this.txb_productID.Size = new System.Drawing.Size(187, 41);
+            this.txb_productID.TabIndex = 7;
             // 
-            // textBox3
+            // txb_customerID
             // 
-            this.textBox3.Location = new System.Drawing.Point(251, 145);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(318, 41);
-            this.textBox3.TabIndex = 8;
+            this.txb_customerID.Location = new System.Drawing.Point(485, 50);
+            this.txb_customerID.Multiline = true;
+            this.txb_customerID.Name = "txb_customerID";
+            this.txb_customerID.Size = new System.Drawing.Size(187, 41);
+            this.txb_customerID.TabIndex = 8;
             // 
-            // textBox4
+            // txb_quantity
             // 
-            this.textBox4.Location = new System.Drawing.Point(251, 206);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(318, 41);
-            this.textBox4.TabIndex = 9;
+            this.txb_quantity.Location = new System.Drawing.Point(485, 113);
+            this.txb_quantity.Multiline = true;
+            this.txb_quantity.Name = "txb_quantity";
+            this.txb_quantity.Size = new System.Drawing.Size(187, 41);
+            this.txb_quantity.TabIndex = 9;
             // 
-            // dateTimePicker1
+            // dtp_datetime
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(251, 272);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(318, 22);
-            this.dateTimePicker1.TabIndex = 10;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dtp_datetime.Location = new System.Drawing.Point(232, 229);
+            this.dtp_datetime.Name = "dtp_datetime";
+            this.dtp_datetime.Size = new System.Drawing.Size(318, 22);
+            this.dtp_datetime.TabIndex = 10;
+            this.dtp_datetime.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // comboBox1
+            // cbx_status
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(251, 318);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(318, 24);
-            this.comboBox1.TabIndex = 11;
+            this.cbx_status.FormattingEnabled = true;
+            this.cbx_status.Location = new System.Drawing.Point(232, 298);
+            this.cbx_status.Name = "cbx_status";
+            this.cbx_status.Size = new System.Drawing.Size(318, 24);
+            this.cbx_status.TabIndex = 11;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button1.Location = new System.Drawing.Point(485, 389);
+            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button1.Location = new System.Drawing.Point(474, 370);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 53);
+            this.button1.Size = new System.Drawing.Size(133, 64);
             this.button1.TabIndex = 12;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // AddPurchaseHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(691, 496);
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.ClientSize = new System.Drawing.Size(709, 496);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.cbx_status);
+            this.Controls.Add(this.dtp_datetime);
+            this.Controls.Add(this.txb_quantity);
+            this.Controls.Add(this.txb_customerID);
+            this.Controls.Add(this.txb_productID);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txb_purchaseID);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -188,13 +189,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txb_purchaseID;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txb_productID;
+        private System.Windows.Forms.TextBox txb_customerID;
+        private System.Windows.Forms.TextBox txb_quantity;
+        private System.Windows.Forms.DateTimePicker dtp_datetime;
+        private System.Windows.Forms.ComboBox cbx_status;
         private System.Windows.Forms.Button button1;
     }
 }
