@@ -43,14 +43,14 @@ namespace WindowsFormsApp1
             {
                 button1.Visible = true;  // Product Management
                 button3.Visible = false; // Customer Management
-                button4.Visible = false; // Purchase History
+                button4.Visible = true;  // Purchase History
                 button5.Visible = false; // Employee Management
             }
             else if (Utils.roleID == 4) // Employee
             {
                 button1.Visible = false; // Product Management
                 button3.Visible = false; // Customer Management
-                button4.Visible = false; // Purchase History
+                button4.Visible = true;  // Purchase History
                 button5.Visible = false; // Employee Management
             }
             else
@@ -99,6 +99,11 @@ namespace WindowsFormsApp1
             Form1 Form = new Form1();
             Form.Show();
             this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
