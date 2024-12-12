@@ -42,7 +42,7 @@ namespace WindowsFormsApp1
 
         private void UpdateCustomerInDatabase(string code, string name, string phoneNumber, string address)
         {
-            string query = "UPDATE Product SET name = @name, code = @code, address = @address, phoneNumber = @phoneNumber WHERE Code = @Code";
+            string query = "UPDATE Customer SET name = @name, code = @code, address = @address, phoneNumber = @phoneNumber WHERE code = @code";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -55,7 +55,7 @@ namespace WindowsFormsApp1
                         // Add parameters to prevent SQL injection
                         command.Parameters.AddWithValue("@code", code);
                         command.Parameters.AddWithValue("@name", name);
-                        command.Parameters.AddWithValue("phoneNumber", phoneNumber);
+                        command.Parameters.AddWithValue("@phoneNumber", phoneNumber);
                         command.Parameters.AddWithValue("@address", address);
 
                         // Execute the update command
@@ -63,7 +63,7 @@ namespace WindowsFormsApp1
 
                         if (rowsAffected > 0)
                         {
-                            MessageBox.Show("Customer updated successfully.");
+                            MessageBox.Show("Customer deleted successfully.");
                         }
                         else
                         {
