@@ -84,14 +84,9 @@ namespace WindowsFormsApp1
         private string selectedProductName;
         private int selectedProductPrice;
         private int selectedProductQuantity;
-      /*  private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
-*/
+      
                 private void button2_Click_1(object sender, EventArgs e)
         {
-
             this.LoadData();
         }
 
