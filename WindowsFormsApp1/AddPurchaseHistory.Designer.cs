@@ -148,7 +148,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button1.Location = new System.Drawing.Point(474, 370);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 64);
@@ -161,7 +161,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(709, 496);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cbx_status);

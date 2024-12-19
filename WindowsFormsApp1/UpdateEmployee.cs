@@ -211,5 +211,10 @@ namespace WindowsFormsApp1
                 DeleteEmployeeFromDatabase(code);
             }
         }
+
+        private void txb_position_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

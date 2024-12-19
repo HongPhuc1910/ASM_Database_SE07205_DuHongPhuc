@@ -63,7 +63,7 @@ namespace WindowsFormsApp1
 
                         if (rowsAffected > 0)
                         {
-                            MessageBox.Show("Customer deleted successfully.");
+                            MessageBox.Show("Customer update successfully.");
                         }
                         else
                         {
